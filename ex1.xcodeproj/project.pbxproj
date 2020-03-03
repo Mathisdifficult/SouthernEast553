@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1A09B1240E8DD500C944D3 /* 3-1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A09AE240E8DD500C944D3 /* 3-1.cpp */; };
+		1D1A09B2240E8DD500C944D3 /* 3-3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A09AF240E8DD500C944D3 /* 3-3.cpp */; };
 		1DFD3433240762D700157515 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD3432240762D700157515 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D1A09AE240E8DD500C944D3 /* 3-1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "3-1.cpp"; sourceTree = "<group>"; };
+		1D1A09AF240E8DD500C944D3 /* 3-3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "3-3.cpp"; sourceTree = "<group>"; };
+		1D1A09B0240E8DD500C944D3 /* 3-2019年东南大学网安553C++程序设计（回忆）.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3-2019年东南大学网安553C++程序设计（回忆）.pdf"; sourceTree = "<group>"; };
 		1DFD342F240762D700157515 /* ex1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex1; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DFD3432240762D700157515 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DFD3432240762D700157515 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +43,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D1A09AD240E8DD500C944D3 /* 19编程题答案 */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A09AE240E8DD500C944D3 /* 3-1.cpp */,
+				1D1A09AF240E8DD500C944D3 /* 3-3.cpp */,
+				1D1A09B0240E8DD500C944D3 /* 3-2019年东南大学网安553C++程序设计（回忆）.pdf */,
+			);
+			path = "19编程题答案";
+			sourceTree = "<group>";
+		};
 		1DFD3426240762D700157515 = {
 			isa = PBXGroup;
 			children = (
+				1D1A09AD240E8DD500C944D3 /* 19编程题答案 */,
 				1DFD3431240762D700157515 /* ex1 */,
 				1DFD3430240762D700157515 /* Products */,
 			);
@@ -119,7 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1A09B2240E8DD500C944D3 /* 3-3.cpp in Sources */,
 				1DFD3433240762D700157515 /* main.cpp in Sources */,
+				1D1A09B1240E8DD500C944D3 /* 3-1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
